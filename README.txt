@@ -30,3 +30,14 @@ Version 4 YouTube fix:
 - Uses the privacy-enhanced youtube-nocookie.com embed.
 - Adds a referrer policy for hosted HTTPS playback.
 - Important: opening index.html directly from a phone file/content viewer can cause YouTube Error 153 because YouTube does not receive a normal HTTP Referer. Upload the website to HTTPS hosting for embedded playback.
+
+Version 5 update:
+- Replaced the founder image with the exact choreographer photo extracted from page 2 of the supplied Step N Style Dance Crew PDF.
+- Added a dedicated "Meet Our Founder & Artistic Director" section immediately below the hero.
+- Added Founder navigation link.
+- Removed the duplicate founder photo from the performance gallery.
+- Kept all Version 4 YouTube and booking functionality.
+
+Version 6 fix:
+- Embedded the original choreographer photo directly inside index.html as a data image.
+- This fixes the founder photo when index.html is opened from a Samsung/Android content:// file viewer where relative assets may not load.
