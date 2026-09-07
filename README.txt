@@ -38,6 +38,25 @@ Version 5 update:
 - Removed the duplicate founder photo from the performance gallery.
 - Kept all Version 4 YouTube and booking functionality.
 
-Version 6 fix:
-- Embedded the original choreographer photo directly inside index.html as a data image.
-- This fixes the founder photo when index.html is opened from a Samsung/Android content:// file viewer where relative assets may not load.
+Version 9 definitive image fix:
+- Rebuilt from clean Version 5 HTML so blank image data from earlier versions is not retained.
+- Replaced all performance images with verified real photos extracted from the supplied PDF.
+- Embedded the verified images directly in index.html for reliable Android content:// local viewing.
+
+Version 10 update:
+- Redesigned pricing into four premium cards: Essential (4 dancers), Signature (6 dancers), Grand (8 dancers), and Wedding/Custom.
+- Added prominent starting prices and a "Most Popular" badge.
+- Added direct enquiry/booking buttons on each package.
+- Removed the technical YouTube/file-viewer note from the bottom of the website.
+- Added a simple customer-friendly pricing disclaimer instead.
+
+Final website:
+- Removed the technical "Video note" card completely.
+- Kept the YouTube section and Open YouTube button.
+- Kept the premium pricing layout.
+
+Final YouTube Gallery Update:
+- Each of the five performance gallery photos is clickable.
+- Tapping a photo opens its corresponding YouTube video in an on-page popup.
+- The popup requests autoplay; mobile browsers may still require the visitor to tap Play.
+- Videos are mapped exactly as supplied.
